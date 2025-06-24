@@ -1,0 +1,5 @@
+torch>=1.7
+torchvision>=0.8
+opencv-python
+# YOLOv5's official repository dependencies
+git+https://github.com/ultralytics/yolov5.git
