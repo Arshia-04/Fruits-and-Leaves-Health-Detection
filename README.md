@@ -23,10 +23,10 @@ This repo includes:
 ## ⚠️ Model Limitations
 
 - **Background Detection**:  
-  The model struggles to properly identify and distinguish the background from the objects in the image. This leads to **misclassifications** where the model may incorrectly classify parts of the background as objects. The confusion matrix shows the model has difficulty predicting the background class, with low classification scores (especially in the 'background' row).
+  The model struggles to properly identify and distinguish the background from the objects in the image. This leads to misclassifications where the model may incorrectly classify parts of the background as objects. The confusion matrix shows the model has difficulty predicting the background class, with low classification scores (especially in the 'background' row).
   
 - **Confusion Between Fruits and Leaves**:  
-  Fruits and leaves often have **similar shapes** (e.g., round shapes, elongated forms), which makes it hard for the model to distinguish between them. This results in some misclassifications, especially when the objects are very similar in appearance.
+  Fruits and leaves often have similar shapes (e.g., round shapes, elongated forms), which makes it hard for the model to distinguish between them. This results in some misclassifications, especially when the objects are very similar in appearance.
   
 - **Class Imbalance**:  
   The model was trained on a dataset that may not be fully representative of real-world scenarios. As a result, it might perform well on some classes (e.g., 'Healthy') but struggle with others, especially when there is a significant class imbalance.
